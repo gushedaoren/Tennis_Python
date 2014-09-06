@@ -2,75 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="241bc68a-bc55-47c4-bccc-71349d97741e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/css/base.css" afterPath="$PROJECT_DIR$/static/admin/css/base.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/css/changelists.css" afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/css/dashboard.css" afterPath="$PROJECT_DIR$/static/admin/css/dashboard.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/css/forms.css" afterPath="$PROJECT_DIR$/static/admin/css/forms.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/css/ie.css" afterPath="$PROJECT_DIR$/static/admin/css/ie.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/css/login.css" afterPath="$PROJECT_DIR$/static/admin/css/login.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/css/rtl.css" afterPath="$PROJECT_DIR$/static/admin/css/rtl.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/css/widgets.css" afterPath="$PROJECT_DIR$/static/admin/css/widgets.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/changelist-bg.gif" afterPath="$PROJECT_DIR$/static/admin/img/changelist-bg.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/changelist-bg_rtl.gif" afterPath="$PROJECT_DIR$/static/admin/img/changelist-bg_rtl.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/chooser-bg.gif" afterPath="$PROJECT_DIR$/static/admin/img/chooser-bg.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/chooser_stacked-bg.gif" afterPath="$PROJECT_DIR$/static/admin/img/chooser_stacked-bg.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/default-bg-reverse.gif" afterPath="$PROJECT_DIR$/static/admin/img/default-bg-reverse.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/default-bg.gif" afterPath="$PROJECT_DIR$/static/admin/img/default-bg.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/deleted-overlay.gif" afterPath="$PROJECT_DIR$/static/admin/img/deleted-overlay.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/gis/move_vertex_off.png" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/gis/move_vertex_on.png" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/icon-no.gif" afterPath="$PROJECT_DIR$/static/admin/img/icon-no.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/icon-unknown.gif" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/icon-yes.gif" afterPath="$PROJECT_DIR$/static/admin/img/icon-yes.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/icon_addlink.gif" afterPath="$PROJECT_DIR$/static/admin/img/icon_addlink.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/icon_alert.gif" afterPath="$PROJECT_DIR$/static/admin/img/icon_alert.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/icon_calendar.gif" afterPath="$PROJECT_DIR$/static/admin/img/icon_calendar.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/icon_changelink.gif" afterPath="$PROJECT_DIR$/static/admin/img/icon_changelink.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/icon_clock.gif" afterPath="$PROJECT_DIR$/static/admin/img/icon_clock.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/icon_deletelink.gif" afterPath="$PROJECT_DIR$/static/admin/img/icon_deletelink.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/icon_error.gif" afterPath="$PROJECT_DIR$/static/admin/img/icon_error.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/icon_searchbox.png" afterPath="$PROJECT_DIR$/static/admin/img/icon_searchbox.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/icon_success.gif" afterPath="$PROJECT_DIR$/static/admin/img/icon_success.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/inline-delete-8bit.png" afterPath="$PROJECT_DIR$/static/admin/img/inline-delete-8bit.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/inline-delete.png" afterPath="$PROJECT_DIR$/static/admin/img/inline-delete.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/inline-restore-8bit.png" afterPath="$PROJECT_DIR$/static/admin/img/inline-restore-8bit.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/inline-restore.png" afterPath="$PROJECT_DIR$/static/admin/img/inline-restore.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/inline-splitter-bg.gif" afterPath="$PROJECT_DIR$/static/admin/img/inline-splitter-bg.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/nav-bg-grabber.gif" afterPath="$PROJECT_DIR$/static/admin/img/nav-bg-grabber.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/nav-bg-reverse.gif" afterPath="$PROJECT_DIR$/static/admin/img/nav-bg-reverse.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/nav-bg-selected.gif" afterPath="$PROJECT_DIR$/static/admin/img/nav-bg-selected.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/nav-bg.gif" afterPath="$PROJECT_DIR$/static/admin/img/nav-bg.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/selector-icons.gif" afterPath="$PROJECT_DIR$/static/admin/img/selector-icons.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/selector-search.gif" afterPath="$PROJECT_DIR$/static/admin/img/selector-search.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/sorting-icons.gif" afterPath="$PROJECT_DIR$/static/admin/img/sorting-icons.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/tool-left.gif" afterPath="$PROJECT_DIR$/static/admin/img/tool-left.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/tool-left_over.gif" afterPath="$PROJECT_DIR$/static/admin/img/tool-left_over.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/tool-right.gif" afterPath="$PROJECT_DIR$/static/admin/img/tool-right.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/tool-right_over.gif" afterPath="$PROJECT_DIR$/static/admin/img/tool-right_over.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/tooltag-add.gif" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/tooltag-add_over.gif" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add_over.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/tooltag-arrowright.gif" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/img/tooltag-arrowright_over.gif" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright_over.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/js/LICENSE-JQUERY.txt" afterPath="$PROJECT_DIR$/static/admin/js/LICENSE-JQUERY.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/js/SelectBox.js" afterPath="$PROJECT_DIR$/static/admin/js/SelectBox.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/js/SelectFilter2.js" afterPath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/js/actions.js" afterPath="$PROJECT_DIR$/static/admin/js/actions.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/js/actions.min.js" afterPath="$PROJECT_DIR$/static/admin/js/actions.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/js/admin/DateTimeShortcuts.js" afterPath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/js/admin/RelatedObjectLookups.js" afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/js/calendar.js" afterPath="$PROJECT_DIR$/static/admin/js/calendar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/js/collapse.js" afterPath="$PROJECT_DIR$/static/admin/js/collapse.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/js/collapse.min.js" afterPath="$PROJECT_DIR$/static/admin/js/collapse.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/js/core.js" afterPath="$PROJECT_DIR$/static/admin/js/core.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/js/inlines.js" afterPath="$PROJECT_DIR$/static/admin/js/inlines.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/js/inlines.min.js" afterPath="$PROJECT_DIR$/static/admin/js/inlines.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/js/jquery.init.js" afterPath="$PROJECT_DIR$/static/admin/js/jquery.init.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/js/jquery.js" afterPath="$PROJECT_DIR$/static/admin/js/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/js/jquery.min.js" afterPath="$PROJECT_DIR$/static/admin/js/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/js/prepopulate.js" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/js/prepopulate.min.js" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/js/timeparse.js" afterPath="$PROJECT_DIR$/static/admin/js/timeparse.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/js/urlify.js" afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tennis_Python/settings.py" afterPath="$PROJECT_DIR$/Tennis_Python/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Tennis_Python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,8 +29,8 @@
       <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tennis_Python/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37931034" vertical-offset="715" max-vertical-offset="1440">
-              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.6896552" vertical-offset="715" max-vertical-offset="1440">
+              <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -783,8 +716,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tennis_Python/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37931034" vertical-offset="715" max-vertical-offset="1440">
-          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.6896552" vertical-offset="715" max-vertical-offset="1440">
+          <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
           <folding />
         </state>
       </provider>
