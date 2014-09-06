@@ -49,6 +49,12 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+#    'django.contrib.staticfiles.finders.DefaultStorageFinder',
+)
+
 ROOT_URLCONF = 'Tennis_Python.urls'
 
 WSGI_APPLICATION = 'Tennis_Python.wsgi.application'
@@ -87,4 +93,6 @@ USE_TZ = True
 STATIC_ROOT = ''
 STATIC_URL = '/static/'
 ADMIN_MEDIA_PREFIX = '/static/admin/'
-
+STATICFILES_DIRS = (
+    'static'
+)
