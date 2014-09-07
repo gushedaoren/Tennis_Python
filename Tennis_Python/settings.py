@@ -103,6 +103,6 @@ STATIC_ROOT =os.path.join(PROJECT_PATH, '../static/')
 STATIC_URL ='/statc/'
 ADMIN_MEDIA_PREFIX = '/static/admin/'
 STATICFILES_DIRS = (
-
+   '/Volumes/D/webserver/Tennis_Python/static',
 
 )
