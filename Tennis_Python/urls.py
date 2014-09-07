@@ -4,7 +4,7 @@ from django.contrib import admin
 from django.db import router
 from django.conf import settings
 from django.conf.urls.static import static
-
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from rest_framework import routers
 from quickstart import views
 admin.autodiscover()
@@ -25,4 +25,7 @@ urlpatterns = patterns('',
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 
 
-)+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+)
+urlpatterns += staticfiles_urlpatterns()
+
+
