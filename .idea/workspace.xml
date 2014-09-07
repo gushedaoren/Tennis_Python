@@ -29,8 +29,8 @@
       <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tennis_Python/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5263158" vertical-offset="1315" max-vertical-offset="1695">
-              <caret line="101" column="15" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.56578946" vertical-offset="1315" max-vertical-offset="1695">
+              <caret line="102" column="22" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -594,7 +594,11 @@
       <created>1410089390396</created>
       <updated>1410089390396</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary=" BASE_DIR+'Tennis_Python/static',">
+      <created>1410090587451</created>
+      <updated>1410090587451</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -990,8 +994,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tennis_Python/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5263158" vertical-offset="1315" max-vertical-offset="1695">
-          <caret line="101" column="15" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.56578946" vertical-offset="1315" max-vertical-offset="1695">
+          <caret line="102" column="22" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
           <folding />
         </state>
       </provider>
