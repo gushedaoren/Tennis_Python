@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="241bc68a-bc55-47c4-bccc-71349d97741e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tennis_Python/settings.py" afterPath="$PROJECT_DIR$/Tennis_Python/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Tennis_Python.iws" />
@@ -574,7 +573,11 @@
       <created>1410087966100</created>
       <updated>1410087966100</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary=" BASE_DIR+'Tennis_Python/static',">
+      <created>1410088236614</created>
+      <updated>1410088236614</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
