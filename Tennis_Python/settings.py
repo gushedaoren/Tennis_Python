@@ -38,6 +38,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'mod_wsgi.server',
     'tennis',
+    'rest_framework',
+
 )
 
 MIDDLEWARE_CLASSES = (
@@ -54,6 +56,12 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
+
+
+REST_FRAMEWORK = {
+   'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.IsAdminUser',),
+   'PAGINATE_BY': 10
+}
 
 ROOT_URLCONF = 'Tennis_Python.urls'
 
@@ -94,5 +102,5 @@ STATIC_ROOT =os.path.join(PROJECT_PATH,'static')
 STATIC_URL ='/statc/'
 ADMIN_MEDIA_PREFIX = '/static/admin/'
 STATICFILES_DIRS = (
-   os.path.join(PROJECT_PATH, 'assets'),
+   os.path.join(PROJECT_PATH, 'static'),
 )
