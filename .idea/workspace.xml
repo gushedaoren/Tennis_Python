@@ -2,69 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="241bc68a-bc55-47c4-bccc-71349d97741e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/css/base.css" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/css/base.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/css/changelists.css" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/css/changelists.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/css/dashboard.css" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/css/dashboard.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/css/forms.css" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/css/forms.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/css/ie.css" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/css/ie.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/css/login.css" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/css/login.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/css/rtl.css" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/css/rtl.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/css/widgets.css" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/css/widgets.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/changelist-bg.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/changelist-bg.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/changelist-bg_rtl.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/changelist-bg_rtl.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/default-bg-reverse.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/default-bg-reverse.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/default-bg.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/default-bg.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/deleted-overlay.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/deleted-overlay.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.png" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/gis/move_vertex_off.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.png" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/gis/move_vertex_on.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/icon-no.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/icon-no.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/icon-unknown.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/icon-yes.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/icon-yes.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/icon_addlink.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/icon_addlink.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/icon_alert.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/icon_alert.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/icon_calendar.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/icon_calendar.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/icon_changelink.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/icon_changelink.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/icon_clock.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/icon_clock.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/icon_deletelink.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/icon_deletelink.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/icon_error.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/icon_error.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/icon_searchbox.png" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/icon_searchbox.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/icon_success.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/icon_success.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/inline-delete-8bit.png" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/inline-delete-8bit.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/inline-delete.png" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/inline-delete.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/inline-restore-8bit.png" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/inline-restore-8bit.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/inline-restore.png" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/inline-restore.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/inline-splitter-bg.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/inline-splitter-bg.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/nav-bg-grabber.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/nav-bg-grabber.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/nav-bg-reverse.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/nav-bg-reverse.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/nav-bg-selected.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/nav-bg-selected.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/nav-bg.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/nav-bg.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/selector-icons.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/selector-icons.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/selector-search.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/selector-search.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/sorting-icons.gif" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/sorting-icons.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/tooltag-add.png" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/tooltag-add.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.png" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/img/tooltag-arrowright.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/js/LICENSE-JQUERY.txt" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/js/LICENSE-JQUERY.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/js/SelectBox.js" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/js/SelectBox.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/js/SelectFilter2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/js/actions.js" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/js/actions.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/js/actions.min.js" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/js/actions.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/js/admin/DateTimeShortcuts.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/js/admin/RelatedObjectLookups.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/js/calendar.js" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/js/calendar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/js/collapse.js" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/js/collapse.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/js/collapse.min.js" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/js/collapse.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/js/core.js" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/js/core.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/js/inlines.js" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/js/inlines.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/js/inlines.min.js" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/js/inlines.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/js/jquery.init.js" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/js/jquery.init.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/js/jquery.js" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/js/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/js/jquery.min.js" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/js/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.js" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/js/prepopulate.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/js/prepopulate.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/js/timeparse.js" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/js/timeparse.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/admin/js/urlify.js" afterPath="$PROJECT_DIR$/Tennis_Python/static/admin/js/urlify.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tennis_Python/settings.py" afterPath="$PROJECT_DIR$/Tennis_Python/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tennis_Python/urls.py" afterPath="$PROJECT_DIR$/Tennis_Python/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Tennis_Python.iws" />
@@ -91,8 +29,8 @@
       <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tennis_Python/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7305389" vertical-offset="1209" max-vertical-offset="1710">
-              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.76047903" vertical-offset="1209" max-vertical-offset="1710">
+              <caret line="106" column="35" selection-start-line="106" selection-start-column="2" selection-end-line="106" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -577,7 +515,11 @@
       <created>1410080432043</created>
       <updated>1410080432043</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="static path">
+      <created>1410084894166</created>
+      <updated>1410084894166</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -954,8 +896,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tennis_Python/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7305389" vertical-offset="1209" max-vertical-offset="1710">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.76047903" vertical-offset="1209" max-vertical-offset="1710">
+          <caret line="106" column="35" selection-start-line="106" selection-start-column="2" selection-end-line="106" selection-end-column="35" />
           <folding />
         </state>
       </provider>
