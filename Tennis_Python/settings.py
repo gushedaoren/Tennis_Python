@@ -99,10 +99,9 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
-STATIC_ROOT =os.path.join(PROJECT_PATH, '../static/')
+STATIC_ROOT ='/Volumes/D/webserver/Tennis_Python/static/'
 STATIC_URL ='/statc/'
 ADMIN_MEDIA_PREFIX = '/static/admin/'
 STATICFILES_DIRS = (
-   '/Volumes/D/webserver/Tennis_Python/static',
-
+    '/static/rest_framwork',
 )
