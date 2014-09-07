@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'mod_wsgi.server',
     'tennis',
     'rest_framework',
+    'quickstart',
 
 )
 
