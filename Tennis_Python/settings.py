@@ -103,5 +103,6 @@ STATIC_ROOT =os.path.join(PROJECT_PATH,'static')
 STATIC_URL ='/statc/'
 ADMIN_MEDIA_PREFIX = '/static/admin/'
 STATICFILES_DIRS = (
+   os.path.join(BASE_DIR, "static"),
 
 )
