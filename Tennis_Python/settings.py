@@ -104,5 +104,5 @@ STATIC_URL ='/statc/'
 ADMIN_MEDIA_PREFIX = '/static/admin/'
 STATICFILES_DIRS = (
 
-   BASE_DIR+'/static/rest_framework/',
+
 )
