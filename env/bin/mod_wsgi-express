@@ -1,0 +1,10 @@
+#!/Users/oliver/Develop/python_projects/Tennis_Python/env/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'mod-wsgi==4.2.8','console_scripts','mod_wsgi-express'
+__requires__ = 'mod-wsgi==4.2.8'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('mod-wsgi==4.2.8', 'console_scripts', 'mod_wsgi-express')()
+    )
