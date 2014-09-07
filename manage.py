@@ -4,7 +4,8 @@ import sys
 
 if __name__ == "__main__":
 
-    sys.path.append('/Volumes/D/webserver/Tennis_Python/Tennis_Python')
+    app_root = os.path.dirname(__file__)
+    sys.path.insert(0,os.path.join(app_root,'Tennis_Python'))
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Tennis_Python.settings")
 
     from django.core.management import execute_from_command_line
