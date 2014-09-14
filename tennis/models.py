@@ -9,7 +9,7 @@ class BaseCity(models.Model):
 
     cityName = models.TextField()
     cityType = models.TextField()
-    isHot = models.BooleanField()
+    isHot = models.BooleanField(default=False)
     firstLetter=models.TextField()
 
     class Meta:
