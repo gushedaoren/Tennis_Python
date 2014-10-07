@@ -63,9 +63,16 @@ STATICFILES_FINDERS = (
 
 
 REST_FRAMEWORK = {
-   'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.IsAdminUser',),
+
+
+
+   'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.AllowAny',
+ #    'rest_framework.authentication.TokenAuthentication',
+   ),
    'PAGINATE_BY': 10
 }
+
+
 
 ROOT_URLCONF = 'Tennis_Python.urls'
 
@@ -83,6 +90,7 @@ DATABASES = {
         'PASSWORD': 'Nxc123456',
         'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
+        'OPTIONS': {'charset': 'utf8mb4'},
     }
 }
 
@@ -99,6 +107,8 @@ USE_L10N = True
 
 USE_TZ = True
 
+DEFAULT_CHARSET = 'utf-8'
+FILE_CHARSET = 'utf-8'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/

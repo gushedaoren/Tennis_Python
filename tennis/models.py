@@ -1,9 +1,5 @@
 from django.db import models
 
-
-
-
-
 class BaseCity(models.Model):
     created = models.DateTimeField(auto_now_add=True)
 
@@ -15,6 +11,8 @@ class BaseCity(models.Model):
     class Meta:
         ordering = ('created',)
 
+
+
 class Court(models.Model):
     created = models.DateTimeField(auto_now_add=True)
 
@@ -22,8 +20,8 @@ class Court(models.Model):
     cityType = models.TextField()
     address = models.TextField()
     phone=models.TextField()
-    startTime=models.TextField()
-    endTime=models.TextField()
+    startTime=models.DateTimeField(auto_now_add=True)
+    endTime=models.DateTimeField(auto_now_add=True)
     fee=models.TextField()
     courtDesc=models.TextField()
     courtCount=models.IntegerField()
