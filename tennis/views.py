@@ -1,6 +1,6 @@
 
 from rest_framework import generics
-from tennis.models import Court, BaseCity, City
+from tennis.models import Court, City
 from tennis.serializers import CourtSerializer, CitySerializer
 
 
