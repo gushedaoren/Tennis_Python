@@ -1,7 +1,7 @@
 
 from rest_framework import generics
-from tennis.models import Court, BaseCity
-from tennis.serializers import CourtSerializer, BaseCitySerializer
+from tennis.models import Court, BaseCity, City
+from tennis.serializers import CourtSerializer, CitySerializer
 
 
 class CourtList(generics.ListCreateAPIView):
@@ -14,12 +14,14 @@ class CourtDetail(generics.RetrieveUpdateDestroyAPIView):
 
 
 
+
+
 class CityList(generics.ListCreateAPIView):
-    queryset = BaseCity.objects.all()
-    serializer_class = BaseCitySerializer
+    queryset = City.objects.all()
+    serializer_class = CitySerializer
 
 
 
 class CityDetail(generics.RetrieveUpdateDestroyAPIView):
-    queryset = BaseCity.objects.all()
-    serializer_class = BaseCitySerializer
+    queryset = City.objects.all()
+    serializer_class = CitySerializer

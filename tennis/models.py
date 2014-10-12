@@ -1,4 +1,27 @@
+import django
 from django.db import models
+import datetime
+
+
+class Province(models.Model):
+
+    ProvinceID=models.BigIntegerField();
+    ProvinceName=models.TextField();
+
+
+class City(models.Model):
+
+    CityID=models.BigIntegerField();
+    CityName=models.TextField();
+    ProvinceID=models.BigIntegerField();
+
+
+
+class District(models.Model):
+
+    DistrictID=models.BigIntegerField();
+    DistrictName=models.TextField();
+    CityID=models.BigIntegerField();
 
 class BaseCity(models.Model):
     created = models.DateTimeField(auto_now_add=True)
@@ -7,6 +30,7 @@ class BaseCity(models.Model):
     cityType = models.TextField()
     isHot = models.BooleanField(default=False)
     firstLetter=models.TextField()
+
 
     class Meta:
         ordering = ('created',)

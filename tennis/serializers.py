@@ -1,18 +1,18 @@
 from rest_framework import serializers
-from tennis.models import Court, BaseCity
+from tennis.models import Court, BaseCity, City
 
 
-class BaseCitySerializer(serializers.ModelSerializer):
+class CitySerializer(serializers.ModelSerializer):
 
 
     class Meta:
-        model = BaseCity
-        fields = ('id', 'cityName', 'cityType', 'firstLetter', 'isHot')
+        model = City
+        fields = ('CityID', 'CityName', 'ProvinceID')
 
 
 class CourtSerializer(serializers.ModelSerializer):
-    city_BaseCity_Model=BaseCitySerializer(source='city_BaseCity_Model')
-    district_BaseCity_Model=BaseCitySerializer(source='district_BaseCity_Model')
+    city_BaseCity_Model=CitySerializer(source='city_BaseCity_Model')
+    district_BaseCity_Model=CitySerializer(source='district_BaseCity_Model')
 
     class Meta:
         model = Court
