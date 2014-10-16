@@ -8,7 +8,7 @@ class CourtList(generics.ListCreateAPIView):
     queryset = Court.objects.all()
     serializer_class = CourtSerializer
 
-    filter_fields = ('courtNumber','cityModel__cityID')
+    filter_fields = ('courtNumber','cityModel__id')
 
 
 

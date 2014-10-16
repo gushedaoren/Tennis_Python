@@ -7,7 +7,7 @@ class CitySerializer(serializers.ModelSerializer):
 
     class Meta:
         model = City
-        fields = ('cityID', 'cityName', 'provinceID')
+        fields = ('id', 'cityName')
 
 
 class DistrictSerializer(serializers.ModelSerializer):
@@ -15,7 +15,7 @@ class DistrictSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = District
-        fields = ('cityID', 'districtName', 'cityID')
+        fields = ('id', 'districtName')
 
 class CourtSerializer(serializers.ModelSerializer):
     cityModel=CitySerializer(source='cityModel')

@@ -6,13 +6,13 @@ import django_filters
 
 class Province(models.Model):
 
-    provinceID=models.BigIntegerField();
+    id=models.BigIntegerField(primary_key=True);
     provinceName=models.TextField();
 
 
 class City(models.Model):
 
-    cityID=models.BigIntegerField();
+    id=models.BigIntegerField(primary_key=True);
     cityName=models.TextField();
     provinceID=models.BigIntegerField();
    # pinyin=models.TextField();
@@ -23,7 +23,7 @@ class District(models.Model):
 
     districtID=models.BigIntegerField();
     districtName=models.TextField();
-    cityID=models.BigIntegerField(null=True);
+    id=models.BigIntegerField(primary_key=True);
 
 
 
