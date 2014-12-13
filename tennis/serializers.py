@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from tennis.models import Court, City, District, Province
+from tennis.models import Court, City, District, Province,User
 
 
 class ProvinceSerializer(serializers.ModelSerializer):
@@ -34,3 +34,11 @@ class CourtSerializer(serializers.ModelSerializer):
         model = Court
         fields = ('id', 'title', 'description', 'court_number', 'phone', 'court_level','address','price',
        'province_model','city_model','district_model')
+
+
+class UserSerializer(serializers.ModelSerializer):
+
+
+    class Meta:
+        model = User
+        fields = ('id', 'name','pasword','email','sex','age','address')

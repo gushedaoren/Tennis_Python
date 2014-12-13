@@ -48,4 +48,13 @@ class Court(models.Model):
     class Meta:
         ordering = ('title',)
 
+class User(models.Model):
+    name=models.TextField();
+    pasword=models.TextField();
+    email=models.TextField();
+    sex=models.TextField();
+    age=models.IntegerField();
+    address=models.TextField();
+
+
 
