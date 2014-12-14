@@ -1,3 +1,4 @@
+from django.http import HttpResponse
 from django.views.decorators.cache import never_cache
 from django.views.decorators.csrf import csrf_protect
 from django.views.decorators.debug import sensitive_post_parameters
@@ -67,15 +68,26 @@ def tennis_login(request):
 
         username = request.GET['username']
         print("username:"+username)
+
         if not username:
             return None
 
         try:
-            user = User.objects.get(username=username)
+            user = User.objects.get(name='oliver')
+
+            print("name:"+user.name + " email:"+user.email)
+
+
+            if user.name==username:
+                return HttpResponse("{'statusCode':'0','message':'auth success'}")
+            else :
+                return HttpResponse("{'statusCode':'1','message':'auth failed'}")
+
         except User.DoesNotExist:
+
+            user=None
             raise exceptions.AuthenticationFailed('No such user')
 
-        return (user, None)
-
+        return HttpResponse("No such user")
 
 

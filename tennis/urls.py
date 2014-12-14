@@ -11,6 +11,8 @@ urlpatterns = patterns('',
     url(r'^tennis/user_list$', views.UserList.as_view()),
     url(r'^tennis/tennis_login$', views.tennis_login),
 
+
+
 )
 
 
