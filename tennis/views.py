@@ -67,18 +67,20 @@ def tennis_login(request):
 
 
         username = request.GET['username']
+        password = request.GET['password']
         print("username:"+username)
 
         if not username:
             return None
 
         try:
-            user = User.objects.get(name='oliver')
+            user = User.objects.get(name=username)
+
 
             print("name:"+user.name + " email:"+user.email)
 
 
-            if user.name==username:
+            if (user.name==username and user.pasword==password):
                 return HttpResponse("{'statusCode':'0','message':'auth success'}")
             else :
                 return HttpResponse("{'statusCode':'1','message':'auth failed'}")
