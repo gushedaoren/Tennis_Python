@@ -57,14 +57,7 @@ class UserDetail(generics.RetrieveUpdateDestroyAPIView):
 
 
 
-def tennis_login(request):
-
-        """
-
-        :param request:
-        :return: :raise exceptions.AuthenticationFailed:
-        """
-
+def login(request):
 
         username = request.GET['username']
         password = request.GET['password']
@@ -75,15 +68,13 @@ def tennis_login(request):
 
         try:
             user = User.objects.get(name=username)
-
-
             print("name:"+user.name + " email:"+user.email)
 
 
-            if (user.name==username and user.pasword==password):
-                return HttpResponse("{'statusCode':'0','message':'auth success'}")
+            if (user.name==username and user.password==password):
+                return HttpResponse('{"statusCode":"0","message":"auth success"}')
             else :
-                return HttpResponse("{'statusCode':'1','message':'auth failed'}")
+                return HttpResponse('{"statusCode":"0","message":"auth failed"}')
 
         except User.DoesNotExist:
 
@@ -92,4 +83,34 @@ def tennis_login(request):
 
         return HttpResponse("No such user")
 
+
+
+def register(request):
+
+        username = request.GET['username']
+        password = request.GET['password']
+        print("username:"+username)
+
+        if not username:
+            return None
+
+        try:
+
+            user=User.objects.get(name=username);
+
+
+            return HttpResponse('{"statusCode":"0","message":"user alreadly exits"}')
+
+        except User.DoesNotExist:
+
+            User.objects.create(name=username,password=password)
+
+
+
+            return HttpResponse('{"statusCode":"0","message":"register success"}')
+
+
+
+
+        return HttpResponse("No such user")
 

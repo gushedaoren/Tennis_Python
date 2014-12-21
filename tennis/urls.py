@@ -9,7 +9,8 @@ urlpatterns = patterns('',
     url(r'^tennis/city_list$', views.CityList.as_view()),
     url(r'^tennis/city_detial(?P<pk>[0-9]+)/$', views.CityDetail.as_view()),
     url(r'^tennis/user_list$', views.UserList.as_view()),
-    url(r'^tennis/tennis_login$', views.tennis_login),
+    url(r'^tennis/login$', views.login),
+    url(r'^tennis/register', views.register),
 
 
 

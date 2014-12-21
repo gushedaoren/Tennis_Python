@@ -50,11 +50,11 @@ class Court(models.Model):
 
 class User(models.Model):
     name=models.TextField();
-    pasword=models.TextField();
-    email=models.TextField();
-    sex=models.TextField();
-    age=models.IntegerField();
-    address=models.TextField();
+    password=models.TextField();
+    email=models.TextField(null=True);
+    sex=models.TextField(null=True);
+    age=models.IntegerField(null=True);
+    address=models.TextField(null=True);
 
 
 
