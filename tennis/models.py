@@ -52,7 +52,7 @@ class User(models.Model):
     name=models.TextField();
     password=models.TextField();
     email=models.TextField(null=True);
-    sex=models.TextField(null=True);
+    sex=models.IntegerField(null=True);  #man 0 woman 1
     age=models.IntegerField(null=True);
     address=models.TextField(null=True);
 

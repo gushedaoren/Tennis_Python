@@ -68,13 +68,13 @@ def login(request):
 
         try:
             user = User.objects.get(name=username)
-            print("name:"+user.name + " email:"+user.email)
+
 
 
             if (user.name==username and user.password==password):
                 return HttpResponse('{"statusCode":"0","message":"auth success"}')
             else :
-                return HttpResponse('{"statusCode":"0","message":"auth failed"}')
+                return HttpResponse('{"statusCode":"1","message":"auth failed"}')
 
         except User.DoesNotExist:
 
@@ -89,6 +89,7 @@ def register(request):
 
         username = request.GET['username']
         password = request.GET['password']
+        sex = request.GET['sex']
         print("username:"+username)
 
         if not username:
@@ -99,11 +100,11 @@ def register(request):
             user=User.objects.get(name=username);
 
 
-            return HttpResponse('{"statusCode":"0","message":"user alreadly exits"}')
+            return HttpResponse('{"statusCode":"1","message":"user alreadly exits"}')
 
         except User.DoesNotExist:
 
-            User.objects.create(name=username,password=password)
+            User.objects.create(name=username,password=password,sex=sex)
 
 
 
