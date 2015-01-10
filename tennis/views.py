@@ -74,7 +74,7 @@ def login(request):
         print("username:"+username)
 
         if not username:
-            return None
+            return HttpResponse('{"statusCode":"2","message":"username is null"}')
 
         try:
             user = User.objects.get(name=username)
@@ -89,7 +89,7 @@ def login(request):
             user=None
             raise exceptions.AuthenticationFailed('No such user')
 
-        return HttpResponse("No such user")
+        return HttpResponse('{"statusCode":"1","message":"auth failed"}')
 
 
 
@@ -105,7 +105,7 @@ def register(request):
         print("username:"+username)
 
         if not username:
-            return None
+          return HttpResponse('{"statusCode":"2","message":"username is null"}')
 
         try:
 
@@ -125,7 +125,7 @@ def register(request):
 
 
 
-        return HttpResponse("No such user")
+        return HttpResponse('{"statusCode":"1","message":"register failed"}')
 
 
 

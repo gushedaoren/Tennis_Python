@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="241bc68a-bc55-47c4-bccc-71349d97741e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tennis/models.py" afterPath="$PROJECT_DIR$/tennis/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tennis/serializers.py" afterPath="$PROJECT_DIR$/tennis/serializers.py" />
+    <list default="true" id="241bc68a-bc55-47c4-bccc-71349d97741e" name="Default" comment="返回用户列表">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tennis/views.py" afterPath="$PROJECT_DIR$/tennis/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -58,6 +56,8 @@
               <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
+                <marker date="1420894967000" expanded="true" signature="1153:1281" placeholder="..." />
+                <marker date="1420894967000" expanded="true" signature="1169:1281" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -86,8 +86,8 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tennis/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6326531" vertical-offset="0" max-vertical-offset="2280">
-              <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.3580902" vertical-offset="1440" max-vertical-offset="2280">
+              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -153,8 +153,8 @@
         <option value="$PROJECT_DIR$/Tennis_Python/settings.py" />
         <option value="$PROJECT_DIR$/tennis/urls.py" />
         <option value="$PROJECT_DIR$/tennis/models.py" />
-        <option value="$PROJECT_DIR$/tennis/views.py" />
         <option value="$PROJECT_DIR$/tennis/serializers.py" />
+        <option value="$PROJECT_DIR$/tennis/views.py" />
       </list>
     </option>
   </component>
@@ -713,7 +713,11 @@
       <created>1420887906910</created>
       <updated>1420887906910</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="返回用户列表">
+      <created>1420895002130</created>
+      <updated>1420895002130</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -721,11 +725,11 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41434264" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41434264" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997344" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41434264" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -759,7 +763,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="ADMIN_MEDIA_PREFIX = '/static/admin/'" />
     <MESSAGE value="STATIC_ROOT = os.path.join(os.path.dirname(__file__), 'static/')" />
     <MESSAGE value="Alias /static/admin /usr/lib/python2.7/site-packages/django/contrib/admin/static/admin/&#10;&#10;    &lt;Directory /usr/lib/python2.7/site-packages/django/contrib/admin/static/admin/&gt;&#10;        Order deny,allow&#10;        Allow from all&#10;    &lt;/Directory&gt;" />
     <MESSAGE value="add admin css" />
@@ -784,7 +787,8 @@
     <MESSAGE value="新增用户注册" />
     <MESSAGE value="登录bug" />
     <MESSAGE value="增加Event" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加Event" />
+    <MESSAGE value="返回用户列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="返回用户列表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1150,14 +1154,16 @@
           <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+            <marker date="1420894967000" expanded="true" signature="1153:1281" placeholder="..." />
+            <marker date="1420894967000" expanded="true" signature="1169:1281" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tennis/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6326531" vertical-offset="0" max-vertical-offset="2280">
-          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.3580902" vertical-offset="1440" max-vertical-offset="2280">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
