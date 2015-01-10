@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="241bc68a-bc55-47c4-bccc-71349d97741e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tennis/models.py" afterPath="$PROJECT_DIR$/tennis/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tennis/serializers.py" afterPath="$PROJECT_DIR$/tennis/serializers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tennis/urls.py" afterPath="$PROJECT_DIR$/tennis/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tennis/views.py" afterPath="$PROJECT_DIR$/tennis/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Tennis_Python.iws" />
@@ -712,13 +708,18 @@
       <created>1419752354459</created>
       <updated>1419752354459</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="增加Event">
+      <created>1420885759573</created>
+      <updated>1420885759573</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2988048" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -734,7 +735,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -758,7 +758,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="'mod_wsgi.server'," />
     <MESSAGE value="ADMIN_MEDIA_PREFIX = '/static/admin/'" />
     <MESSAGE value="STATIC_ROOT = os.path.join(os.path.dirname(__file__), 'static/')" />
     <MESSAGE value="Alias /static/admin /usr/lib/python2.7/site-packages/django/contrib/admin/static/admin/&#10;&#10;    &lt;Directory /usr/lib/python2.7/site-packages/django/contrib/admin/static/admin/&gt;&#10;        Order deny,allow&#10;        Allow from all&#10;    &lt;/Directory&gt;" />
@@ -783,7 +782,8 @@
     <MESSAGE value="登录操作" />
     <MESSAGE value="新增用户注册" />
     <MESSAGE value="登录bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录bug" />
+    <MESSAGE value="增加Event" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加Event" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
