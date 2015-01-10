@@ -132,7 +132,7 @@ def register(request):
 def postEvent(request):
 
     title = request.GET.get('title')
-    content = request.GET.get('content')
+    description = request.GET.get('description')
     address = request.GET.get('address')
     level = request.GET.get('level')
     phone = request.GET.get('phone')
@@ -141,6 +141,6 @@ def postEvent(request):
     remark = request.GET.get('remark')
 
 
-    event=Event.objects.create(title=title,content=content,address=address,level=level,phone=phone,time=time,fee=fee,remark=remark);
+    event=Event.objects.create(title=title,description=description,address=address,level=level,phone=phone,time=time,fee=fee,remark=remark);
 
     return HttpResponse('{"statusCode":"0","message":"post event success"}')
