@@ -87,7 +87,7 @@ def login(request):
         except User.DoesNotExist:
 
             user=None
-            raise exceptions.AuthenticationFailed('No such user')
+            return HttpResponse('{"statusCode":"3","message":"no such user"}')
 
         return HttpResponse('{"statusCode":"1","message":"auth failed"}')
 
