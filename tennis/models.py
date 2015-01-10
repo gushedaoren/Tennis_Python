@@ -58,3 +58,17 @@ class User(models.Model):
 
 
 
+
+class Event(models.Model):
+    title=models.TextField();
+    content=models.TextField(null=True);
+    address=models.TextField(null=True);
+    level=models.IntegerField(null=True);  #man 0 woman 1
+    phone=models.IntegerField(null=True);
+    time=models.TextField(null=True);
+    fee=models.TextField(null=True);
+    remark=models.TextField(null=True);
+
+
+
+

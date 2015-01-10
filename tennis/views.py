@@ -5,8 +5,8 @@ from django.views.decorators.debug import sensitive_post_parameters
 from django_filters import filters
 from rest_framework import generics
 
-from tennis.models import Court, City,User
-from tennis.serializers import CourtSerializer, CitySerializer, UserSerializer
+from tennis.models import Court, City,User,Event
+from tennis.serializers import CourtSerializer, CitySerializer, UserSerializer,EventSerializer
 from rest_framework.authentication import SessionAuthentication, BasicAuthentication
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
@@ -57,6 +57,16 @@ class UserDetail(generics.RetrieveUpdateDestroyAPIView):
 
 
 
+class EventList(generics.ListCreateAPIView):
+    queryset = Event.objects.all()
+    serializer_class =EventSerializer
+
+
+
+class EventDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Event.objects.all()
+    serializer_class = EventSerializer
+
 def login(request):
 
         username = request.GET['username']
@@ -69,8 +79,6 @@ def login(request):
         try:
             user = User.objects.get(name=username)
 
-
-
             if (user.name==username and user.password==password):
                 return HttpResponse('{"statusCode":"0","message":"auth success"}')
             else :
@@ -82,6 +90,10 @@ def login(request):
             raise exceptions.AuthenticationFailed('No such user')
 
         return HttpResponse("No such user")
+
+
+
+
 
 
 
@@ -115,3 +127,20 @@ def register(request):
 
         return HttpResponse("No such user")
 
+
+
+def postEvent(request):
+
+    title = request.GET.get('title')
+    content = request.GET.get('content')
+    address = request.GET.get('address')
+    level = request.GET.get('level')
+    phone = request.GET.get('phone')
+    time = request.GET.get('time')
+    fee = request.GET.get('fee')
+    remark = request.GET.get('remark')
+
+
+    event=Event.objects.create(title=title,content=content,address=address,level=level,phone=phone,time=time,fee=fee,remark=remark);
+
+    return HttpResponse('{"statusCode":"0","message":"post event success"}')

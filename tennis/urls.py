@@ -11,6 +11,9 @@ urlpatterns = patterns('',
     url(r'^tennis/user_list$', views.UserList.as_view()),
     url(r'^tennis/login$', views.login),
     url(r'^tennis/register', views.register),
+    url(r'^tennis/post_event', views.postEvent),
+    url(r'^tennis/event_list$', views.EventList.as_view()),
+    url(r'^tennis/event_detial(?P<pk>[0-9]+)/$', views.EventDetail.as_view()),
 
 
 
