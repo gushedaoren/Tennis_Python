@@ -4,6 +4,8 @@ from django.views.decorators.csrf import csrf_protect
 from django.views.decorators.debug import sensitive_post_parameters
 from django_filters import filters
 from rest_framework import generics
+from rest_framework.parsers import JSONParser
+from rest_framework.renderers import JSONRenderer
 
 from tennis.models import Court, City,User,Event
 from tennis.serializers import CourtSerializer, CitySerializer, UserSerializer,EventSerializer
@@ -14,7 +16,14 @@ from rest_framework.views import APIView
 from rest_framework import authentication
 from rest_framework import exceptions
 
-
+class JSONResponse(HttpResponse):
+    """
+    An HttpResponse that renders its content into JSON.
+    """
+    def __init__(self, data, **kwargs):
+        content = JSONRenderer().render(data)
+        kwargs['content_type'] = 'application/json'
+        super(JSONResponse, self).__init__(content, **kwargs)
 
 class CourtList(generics.ListCreateAPIView):
     queryset = Court.objects.all()
@@ -69,17 +78,17 @@ class EventDetail(generics.RetrieveUpdateDestroyAPIView):
 
 def login(request):
 
-        username = request.GET['username']
+        account = request.GET['account']
         password = request.GET['password']
-        print("username:"+username)
+        print("account:"+account)
 
-        if not username:
+        if not account:
             return HttpResponse('{"statusCode":"2","message":"username is null"}')
 
         try:
-            user = User.objects.get(name=username)
+            user = User.objects.get(account=account)
 
-            if (user.name==username and user.password==password):
+            if (user.account==account and user.password==password):
                 return HttpResponse('{"statusCode":"0","message":"auth success"}')
             else :
                 return HttpResponse('{"statusCode":"1","message":"auth failed"}')
@@ -99,24 +108,26 @@ def login(request):
 
 def register(request):
 
-        username = request.GET['username']
+        account = request.GET['account']
         password = request.GET['password']
         sex = request.GET['sex']
-        print("username:"+username)
+        print("account:"+account)
 
-        if not username:
+        if not account:
           return HttpResponse('{"statusCode":"2","message":"username is null"}')
 
         try:
 
-            user=User.objects.get(name=username);
+            user=User.objects.get(account=account);
 
 
             return HttpResponse('{"statusCode":"1","message":"user alreadly exits"}')
 
         except User.DoesNotExist:
 
-            User.objects.create(name=username,password=password,sex=sex)
+            User.objects.create(account=account,password=password,sex=sex)
+
+
 
 
 
@@ -144,3 +155,19 @@ def postEvent(request):
     event=Event.objects.create(title=title,description=description,address=address,level=level,phone=phone,time=time,fee=fee,remark=remark);
 
     return HttpResponse('{"statusCode":"0","message":"post event success"}')
+
+
+
+
+def updateUserInfo(request):
+
+     account=request.GET.get('account')
+     name = request.GET.get('name')
+     email = request.GET.get('email')
+     sex = request.GET.get('sex')
+     level = request.GET.get('level')
+     age = request.GET.get('age')
+     address = request.GET.get('address')
+     phone = request.GET.get('phone')
+     User.objects.update(account=account,name=name,email=email,sex=sex,level=level,age=age,address=address,phone=phone);
+     return HttpResponse('{"statusCode":"0","message":"update user success"}')

@@ -49,12 +49,15 @@ class Court(models.Model):
         ordering = ('title',)
 
 class User(models.Model):
-    name=models.TextField();
+    account=models.TextField();
+    name=models.TextField(null=True);
     password=models.TextField();
     email=models.TextField(null=True);
-    sex=models.IntegerField(null=True);  #man 0 woman 1
-    age=models.IntegerField(null=True);
+    sex=models.TextField(null=True);  #man 0 woman 1
+    age=models.TextField(null=True);
     address=models.TextField(null=True);
+    level=models.TextField(null=True);
+    phone=models.TextField(null=True);
 
 
 

@@ -14,6 +14,7 @@ urlpatterns = patterns('',
     url(r'^tennis/post_event', views.postEvent),
     url(r'^tennis/event_list$', views.EventList.as_view()),
     url(r'^tennis/event_detial(?P<pk>[0-9]+)/$', views.EventDetail.as_view()),
+     url(r'^tennis/update_userinfo', views.updateUserInfo),
 
 
 
