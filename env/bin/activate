@@ -39,7 +39,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/oliver/Develop/python_projects/Tennis_Python/env"
+VIRTUAL_ENV="/Users/oliver/Develop/python_projects/Tennis_Python/ENV"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

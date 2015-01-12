@@ -49,7 +49,7 @@ class Court(models.Model):
         ordering = ('title',)
 
 class User(models.Model):
-    account=models.TextField();
+    account=models.CharField(max_length=50,unique=True)
     name=models.TextField(null=True);
     password=models.TextField();
     email=models.TextField(null=True);
