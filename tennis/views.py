@@ -169,5 +169,15 @@ def updateUserInfo(request):
      age = request.GET.get('age')
      address = request.GET.get('address')
      phone = request.GET.get('phone')
-     User.objects.update(account=account,name=name,email=email,sex=sex,level=level,age=age,address=address,phone=phone);
+     user=User.objects.get(account=account)
+     user.name=name
+     user.email=email
+     user.sex=sex
+     user.level=level
+     user.age=age
+     user.address=address
+     user.phone=phone
+
+     user.save()
+     #User.objects.update(account=account,name=name,email=email,sex=sex,level=level,age=age,address=address,phone=phone);
      return HttpResponse('{"statusCode":"0","message":"update user success"}')
